@@ -1,6 +1,6 @@
 # Job title Classification by Industry
  
-model using any Machine Learning classifier algorithm to classify job titles by the industry and Useing Flask API to deploy the RESTful API service.
+Building a model using any Machine Learning classifier algorithm to classify job titles by the industry and Useing Flask API to deploy the RESTful API service.
 
 
 Description:
