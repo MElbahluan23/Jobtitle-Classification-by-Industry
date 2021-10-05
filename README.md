@@ -1,3 +1,8 @@
+# Job title Classification by Industry
+ 
+model using any Machine Learning classifier algorithm to classify job titles by the industry and Useing Flask API to deploy the RESTful API service.
+
+
 Description:
 
 You can think of the job industry as the category or general field in which
@@ -11,9 +16,12 @@ Details:
 format of more than 8,500 samples. (download link)
 This dataset is imbalanced (Imbalance means that the number of data
 points available for different classes is different) as follows:
+
 IT 4746
+
 Marketing 2031
+
 Education 1435
+
 Accountancy 374
 
-and Useing Flask API to deploy the RESTful API service.
