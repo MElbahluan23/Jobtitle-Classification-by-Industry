@@ -3,7 +3,7 @@ Building  a  model using any Machine Learning classifier algorithm to classify j
 
 
 # Description:
-The problem is supervised text classification problem,you can think of the job industry as the category or general field in which
+The problem is supervised text classification problem, you can think of the job industry as the category or general field in which
 you work. On a job application, "industry" refers to a broad category under
 which a number of job titles can fall. For example, sales is an industry; job
 titles under this category can include sales associate, sales manager,
