@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<style>
+
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+<head>
+  <meta charset="UTF-8">
+  <title>iNetworks Task</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+<body>
+ <div class="login" align="center">
+	<h1>Job title Classification by industry </h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	 
+    	<p><input type="text"  placeholder="text"  name="text" /></p>
+        
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   
+   <br> <p style="font-size:50px">{{ prediction_text }}</p>
+ </div>
+</body>
+</html>
