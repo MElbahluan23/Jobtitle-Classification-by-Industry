@@ -18,11 +18,11 @@ format of more than 8,500 samples. (download link)
 This dataset is imbalanced (Imbalance means that the number of data
 points available for different classes is different) as follows:
 
-IT 4746
+* IT 4746
 
-Marketing 2031
+* Marketing 2031
 
-Education 1435
+* Education 1435
 
-Accountancy 374
+* Accountancy 374
 
