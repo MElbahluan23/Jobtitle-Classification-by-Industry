@@ -14,9 +14,7 @@ manufacturing sales rep, pharmaceutical sales and so on.
 # Details:
 
 1- You are given a dataset that has two variables (Job title & Industry) in a csv
-format of more than 8,500 samples. (download link)
-This dataset is imbalanced (Imbalance means that the number of data
-points available for different classes is different) as follows:
+format of more than 8,500 samples as follows:
 
 * IT 4746
 
